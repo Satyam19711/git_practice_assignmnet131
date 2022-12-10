@@ -8,8 +8,8 @@ count++;
 }
 }
 if(count==2){
-cosole.log(Yes)
+cosole.log("Yes")
 }
 else{
-console.log(No)
+console.log("No")
 }
