@@ -1,15 +1,22 @@
 
-let num=23;
-
-let count ="";
+function checkPrime(num){
+let count=0;
 for(let i=0; i<=num; i++){
-if(num%i != 0){
-count++;
+if(num%i==0){
+count ++;
 }
 }
 if(count==2){
-cosole.log(Yes)
+return true;
 }
+return false;
+}
+let ans   = checkPrime(13);
+if(ans ==true){
+console.log("Prime")
+}
+  
 else{
-console.log(No)
+console.log("Not prime")
 }
+
